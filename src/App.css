@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #222;
+  color: #eee;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+.header {
+  width: 450px;
+}
+
+.header h1 {
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.btn-holder {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-pink {
+  background-color: #f1425d;
+  color: #eee;
+}
+
+.para {
+  margin-bottom: 80px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
